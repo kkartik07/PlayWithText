@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/PlayWithText/static/css/main.abd64e84.css",
+    "main.js": "/PlayWithText/static/js/main.72466901.js",
+    "index.html": "/PlayWithText/index.html",
+    "main.abd64e84.css.map": "/PlayWithText/static/css/main.abd64e84.css.map",
+    "main.72466901.js.map": "/PlayWithText/static/js/main.72466901.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.abd64e84.css",
+    "static/js/main.72466901.js"
+  ]
+}
