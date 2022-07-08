@@ -47,11 +47,13 @@ function TextArea(props) {
 
 
   const handleFindAndReplace = () => {
+    let oldText=text;
     let find = document.getElementById("find").value;
     let replace = document.getElementById("replace").value;
     let newText = text.replaceAll(find, replace);
     setText(newText);
-    props.showAlert("Text was replaced successfully!", 'success')
+    if(newText!=oldText) props.showAlert("Text was replaced successfully!", 'success')
+    else props.showAlert("Text you entered was not found :( ","danger");
   }
 
 
