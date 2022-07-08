@@ -52,7 +52,7 @@ function TextArea(props) {
     let replace = document.getElementById("replace").value;
     let newText = text.replaceAll(find, replace);
     setText(newText);
-    if(newText!=oldText) props.showAlert("Text was replaced successfully!", 'success')
+    if(newText!==oldText) props.showAlert("Text was replaced successfully!", 'success')
     else props.showAlert("Text you entered was not found :( ","danger");
   }
 
