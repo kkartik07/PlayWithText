@@ -13,6 +13,7 @@ function App() {
       setMode('dark');
       document.body.style.color = '#c9b9b7';
       document.body.style.backgroundColor = '#484a48';
+      document. getElementsByClassName('nav').style.backgroundColor = "#dba752";
       showAlert('Dark Mode has been enabled!', 'success')
     }
     else {
